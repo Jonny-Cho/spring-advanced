@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 @RequiredArgsConstructor
-public class OrderRepositoryVO {
+public class OrderRepositoryV0 {
 
     public void save(final String itemId) {
         if (itemId.equals("ex")) {
