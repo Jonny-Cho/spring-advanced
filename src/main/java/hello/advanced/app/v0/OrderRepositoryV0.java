@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 @RequiredArgsConstructor
-public class OrderRepositoryVO {
+public class OrderRepositoryV0 {
 
     public void save(final String itemId) {
         if (itemId.equals("ex")) {
@@ -17,7 +17,7 @@ public class OrderRepositoryVO {
     private void sleep(final int millis) {
         try {
             Thread.sleep(millis);
-        } catch (InterruptedException e) {
+        } catch (final Exception e) {
             e.printStackTrace();
         }
     }
