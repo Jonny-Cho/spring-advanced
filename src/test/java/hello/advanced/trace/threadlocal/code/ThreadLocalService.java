@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 @Slf4j
 public class ThreadLocalService {
 
-    private ThreadLocal<String> nameStore = new ThreadLocal<>();
+    private final ThreadLocal<String> nameStore = new ThreadLocal<>();
 
     @Test
     public String logic(final String name) {

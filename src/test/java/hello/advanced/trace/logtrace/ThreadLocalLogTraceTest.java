@@ -3,9 +3,9 @@ package hello.advanced.trace.logtrace;
 import hello.advanced.trace.TraceStatus;
 import org.junit.jupiter.api.Test;
 
-class FieldLogTraceTest {
+class ThreadLocalLogTraceTest {
 
-    private final LogTrace trace = new FieldLogTrace();
+    private final LogTrace trace = new ThreadLocalLogTrace();
 
     @Test
     void begin_end_level2() {
